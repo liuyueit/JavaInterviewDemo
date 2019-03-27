@@ -1,4 +1,4 @@
-package com.interview.javabasic.thread.throwable;
+package com.interview.javabasic.throwable;
 
 import java.io.FileNotFoundException;
 

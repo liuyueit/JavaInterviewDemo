@@ -1,8 +1,10 @@
 package com.interview.javabasic.thread;
 
+import static java.lang.Thread.sleep;
+
 public class InterruptDemo {
 	public static void main(String[] args) throws InterruptedException {
-		Runnable interruptTask = new Runnable(){
+		Runnable interruptTask = new Runnable( ){
 			@Override
 					public void run(){
 				int i = 0;
@@ -10,10 +12,10 @@ public class InterruptDemo {
 					while(!Thread.currentThread ().isInterrupted ()) {
 						Thread.sleep ( 100 );
 						i++;
-						System.out.println (Thread.currentThread ().getName()+"(" +Thread.currentThread ().getState () + ") loop"  +i);
+						System.out.println (Thread.currentThread ().getName()+"(" +Thread.currentThread ().getState () + ") loop"  + i );
 					}
 				}catch(InterruptedException e){
-					System.out.println (Thread.currentThread ().getName() +"(" +Thread.currentThread () .getState () +") catch InterruptedException.");
+					System.out.println (Thread.currentThread ().getName() +" (" +Thread.currentThread () .getState () +") catch InterruptedException.");
 				}
 			};
 		};
@@ -23,10 +25,11 @@ public class InterruptDemo {
 		t1.start();
 		System.out.println (t1.getName () +"("+t1.getState ()+") is started.");
 
-		Thread.sleep(300);
+		Thread.sleep ( 300 );
+		t1.interrupt ();
 		System.out.println (t1.getName () +"(" + t1.getState () +") is interrupted.");
 
-		Thread.sleep ( 300);
+		Thread.sleep ( 300 );
 		System.out.println (t1.getName ()+"(" +t1.getState ()+") is interrupted now." );
 	}
 }
