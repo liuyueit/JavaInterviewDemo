@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a7231d-d0eb-4636-8d50-c30a368376e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/autoboxing/Autoboxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/autoboxing/AutoboxingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/autoboxing/Unboxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/concurrency/ReentrantTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/jvm/gc/Finalization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/jvm/gc/NormalObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/jvm/gc/NormalObjectWeakReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/jvm/gc/ReferenceQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interview/javabasic/superclass/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/interview/javabasic/algorthem/ListNodeSolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interview/javabasic/concurrency/.gitignore" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +32,8 @@
       <file leaf-file-name="ReentrantTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/interview/javabasic/concurrency/ReentrantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="413">
+              <caret line="22" column="5" selection-start-line="17" selection-start-column="43" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -50,8 +41,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="-640">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -135,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/com/interview/javabasic/superclass/demo1.java" />
         <option value="$PROJECT_DIR$/src/com/interview/javabasic/superclass/Demo1.java" />
         <option value="$PROJECT_DIR$/src/com/interview/javabasic/concurrency/ReentrantTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -147,9 +139,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="114" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="148" />
+    <option name="y" value="50" />
     <option name="width" value="1440" />
     <option name="height" value="794" />
   </component>
@@ -161,8 +153,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +164,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,14 +332,16 @@
       <workItem from="1555601456487" duration="1980000" />
       <workItem from="1555929862116" duration="4247000" />
       <workItem from="1556202262551" duration="629000" />
+      <workItem from="1556202972592" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90276000" />
+    <option name="totallyTimeSpent" value="90870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="35" width="1440" height="794" extended-state="0" />
+    <frame x="148" y="50" width="1440" height="794" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -357,28 +351,28 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.33138686" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.33722627" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.87153286" visible="true" weight="0.31736112" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.870073" visible="true" weight="0.31736112" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Structure" order="6" sideWeight="0.12846716" side_tool="true" visible="true" weight="0.31736112" />
+      <window_info id="Structure" order="6" sideWeight="0.12992701" side_tool="true" visible="true" weight="0.31736112" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.31970802" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.2611111" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.329927" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,13 +395,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="7" selection-end-line="98" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/javabasic/collection/DuplicateAndOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -723,24 +710,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="153" column="28" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#27602#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/javabasic/concurrency/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/javabasic/concurrency/ReentrantTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="413">
+          <caret line="22" column="5" selection-start-line="17" selection-start-column="43" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="-640">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
