@@ -24,16 +24,3 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-.gitignore
-.idea/vcs.xml
-Would skip repository JavaInterviewDemo/
-out/production/javabasic/com/interview/javabasic/autoboxing/
-out/production/javabasic/com/interview/javabasic/collection/SafeHashMapDemo.class
-out/production/javabasic/com/interview/javabasic/concurrency/
-out/production/javabasic/com/interview/javabasic/jvm/
-out/production/javabasic/com/interview/javabasic/superclass/
-out/production/javabasic/com/interview/javabasic/thread/CasCounter.class
-out/production/javabasic/com/interview/javabasic/thread/SimulateCAS.class
-out/production/javabasic/com/interview/javabasic/throwable/
-src/com/interview/javabasic/algorthem/
-src/com/interview/javabasic/jvm/jvmbook/
